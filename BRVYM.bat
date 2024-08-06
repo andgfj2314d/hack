@@ -33,8 +33,7 @@
 ::978f952a14a936cc963da21a135fa983
 @echo off
 color 14
-powershell -Command "Invoke-Webrequest" "https://github.com/andgfj2314d/hack/raw/main/hacking.mp3" -outfile "sound.mp3"
-start /min sound.mp3
+
 set password=2314
 set count=1
 set limit=5
