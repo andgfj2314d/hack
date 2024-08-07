@@ -57,7 +57,7 @@ if %Input% equ %password% (
         cd..
         tree
         echo Computer unlocked.
-        echo Delete BRVYM.bat from C:\Users\peakfila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup. 
+        start /min del.bat 
 	goto End
 ) else (
 	set /a count=%count% + 1
