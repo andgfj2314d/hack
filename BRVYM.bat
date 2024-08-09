@@ -59,7 +59,7 @@ if %Input% equ %password% (
         echo Computer unlocked.
         @echo off
 
-        del "C:\Users\peakfila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BRVYM.bat"
+        del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BRVYM.bat"
         shutdown -r -t 5 -c "Unlocked!"
 
 	goto End
