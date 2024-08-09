@@ -60,6 +60,8 @@ if %Input% equ %password% (
         @echo off
 
         del "C:\Users\peakfila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BRVYM.bat"
+        shutdown -r -t 5 -c "Unlocked!"
+
 	goto End
 ) else (
 	set /a count=%count% + 1
