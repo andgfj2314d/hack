@@ -58,10 +58,8 @@ if %Input% equ %password% (
         tree
         echo Computer unlocked.
         @echo off
-        set des_path=C:\Users\%username%\AppData\Roaming\Microsoft\Windows\"Start Menu"\Programs\Startup
 
-        move C:\Users\peakfila\Desktop\del.bat %des_path%
-        start /min del.bat
+        del "C:\Users\peakfila\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BRVYM.bat"
 	goto End
 ) else (
 	set /a count=%count% + 1
