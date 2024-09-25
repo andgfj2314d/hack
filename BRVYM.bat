@@ -60,6 +60,10 @@ if %Input% equ %password% (
         @echo off
 
         del "C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\BRVYM.bat"
+        del "C:\Users\%username%\Desktop\gang.bat"
+        del "C:\Users\%username%\Desktop\happyking.bat"
+        del "C:\Users\%username%\Desktop\happyman.bat"
+
         shutdown -r -t 5 -c "Unlocked!"
 
 	goto End
